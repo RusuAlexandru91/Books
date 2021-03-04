@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">probe</string>
+    <string name="no_books">No internet conectivity </string>
+</resources>

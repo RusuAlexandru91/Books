@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#993700B3">
+
+    <TextView
+        android:maxLines="1"
+        android:layout_toRightOf="@+id/name"
+        android:id="@+id/name_main"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Book name "
+        android:textColor="@color/textColorCategory"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/publisher"
+        android:layout_below="@+id/name_main"
+        android:id="@+id/publisher_main"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Publisher "
+        android:textColor="@color/textColorCategory"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/date"
+        android:layout_below="@+id/publisher_main"
+        android:id="@+id/pages_main"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Pages "
+        android:textColor="@color/textColorCategory"
+        android:textSize="14sp"
+        android:maxLength="10"/>
+    <TextView
+        android:id="@+id/name"
+        android:paddingBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Name :"
+        android:textColor="@color/textColorJson"
+        android:textSize="14sp"/>
+    <TextView
+        android:paddingBottom="8dp"
+        android:layout_below="@+id/name"
+        android:id="@+id/publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publisher :"
+        android:textColor="@color/textColorJson"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_below="@+id/publisher"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date :"
+        android:textColor="@color/textColorJson"
+        android:textSize="14sp"/>
+</RelativeLayout>
