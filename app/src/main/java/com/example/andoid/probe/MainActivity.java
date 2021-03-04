@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Sample JSON response for a USGS query
      */
-    private static final String SAMPLE_JSON_RESPONSE = "https://content.guardianapis.com/search?order-by=newest&show-fields=all&page-size=30&api-key=711fe81b-4f01-4259-b738-2fef28ba8091";
+    private static final String SAMPLE_JSON_RESPONSE = "https://content.guardianapis.com/search?order-by=newest&show-fields=all&page-size=30&api-key= ENTER API KEY HERE";
 
     private ListView cartiListView;
 
